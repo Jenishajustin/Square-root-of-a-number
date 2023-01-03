@@ -15,12 +15,17 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
-```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
+```python
+Program Developed by: JENISHA.J
+RegisterNumber:  22002972
+
+b=int(input())
+def newton_method(n,no_of_iters=100):
+    b=float(n)
+    for i in range(no_of_iters):
+        n=0.5*(n+b/n)
+    return n
+print("Square root of the number:",newton_method(b))
 ```
 
 ## Output:
