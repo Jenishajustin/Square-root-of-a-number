@@ -29,7 +29,8 @@ print("Square root of the number:",newton_method(b))
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![sqrt](https://user-images.githubusercontent.com/119405070/210387364-096f51d5-0ec9-41c1-81b2-d94beb7f0b00.png)
+
 
 
 ## Result:
